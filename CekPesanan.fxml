@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="755.90551181" prefWidth="340.15748031" style="-fx-background-color: #028ABF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tes.ControlerStart">
+   <children>
+      <Button fx:id="backcekpesanan" alignment="CENTER" defaultButton="true" layoutX="30.0" layoutY="677.0" mnemonicParsing="false" onAction="#backinput" prefHeight="43.0" prefWidth="87.0" style="-fx-background-color: #2BC0EF; -fx-background-radius: 10;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#f5f5f5" layoutX="162.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smart" wrappingWidth="77.0">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#f5f5f5" layoutX="162.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Laundry" wrappingWidth="108.0">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="98.0" fitWidth="100.0" layoutX="64.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngaaa.com-174585.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="73.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cek Pesanan" textAlignment="CENTER" wrappingWidth="194.0">
+         <font>
+            <Font name="American Typewriter Semibold" size="30.0" />
+         </font>
+      </Text>
+      <Pane layoutX="18.0" layoutY="198.0" prefHeight="457.0" prefWidth="304.0" style="-fx-background-color: rgba(255,255,255,0.44); -fx-background-radius: 10;">
+         <children>
+            <Pane layoutX="18.0" layoutY="176.0" prefHeight="106.0" prefWidth="268.0" style="-fx-background-color: rgba(255,255,255,0.44); -fx-background-radius: 5;">
+               <children>
+                  <TextField fx:id="nomerpesanan2" layoutX="14.0" layoutY="22.0" prefHeight="25.0" prefWidth="108.0" promptText="Nomor Pesanan" />
+                  <TextField fx:id="namapelanggan2" layoutX="14.0" layoutY="59.0" prefHeight="26.0" prefWidth="123.0" promptText="Nama pelanggan" />
+                  <Button fx:id="tampilkan2" alignment="CENTER" defaultButton="true" layoutX="167.0" layoutY="37.0" mnemonicParsing="false" onAction="#backinput" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #2BC0EF; -fx-background-radius: 10;" text="Tampilkan" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="18.0" layoutY="32.0" prefHeight="106.0" prefWidth="268.0" style="-fx-background-color: rgba(255,255,255,0.44); -fx-background-radius: 5;">
+               <children>
+                  <TextField fx:id="nomerpesanan1" layoutX="14.0" layoutY="22.0" prefHeight="25.0" prefWidth="108.0" promptText="Nomor Pesanan" />
+                  <TextField fx:id="namapelanggan1" layoutX="14.0" layoutY="59.0" prefHeight="26.0" prefWidth="123.0" promptText="Nama pelanggan" />
+                  <Button fx:id="tampilkan1" alignment="CENTER" defaultButton="true" layoutX="167.0" layoutY="37.0" mnemonicParsing="false" onAction="#backinput" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #2BC0EF; -fx-background-radius: 10;" text="Tampilkan" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="18.0" layoutY="321.0" prefHeight="106.0" prefWidth="268.0" style="-fx-background-color: rgba(255,255,255,0.44); -fx-background-radius: 5;">
+               <children>
+                  <TextField fx:id="nomerpesanan3" layoutX="14.0" layoutY="22.0" prefHeight="25.0" prefWidth="108.0" promptText="Nomor Pesanan" />
+                  <TextField fx:id="namaelanggan3" layoutX="14.0" layoutY="59.0" prefHeight="26.0" prefWidth="123.0" promptText="Nama pelanggan" />
+                  <Button fx:id="tampilkan3" alignment="CENTER" defaultButton="true" layoutX="167.0" layoutY="37.0" mnemonicParsing="false" onAction="#backinput" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #2BC0EF; -fx-background-radius: 10;" text="Tampilkan" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
